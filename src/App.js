@@ -29,7 +29,7 @@ const App = () => {
             <img src={milk} style={{ margin: '0 50px 0 50px', width: '200px' }}></img>
           </Stack>
         </Box>
-        <Box onClick={handleClick} sx={{ display: 'flex', padding: '10px', background: 'white', alignItems: 'center', justifyContent: 'center', width: {xs: '300px', sm: '450px'}, aspectRatio: '7/11', cursor: 'pointer', boxShadow: '5px 0px 5px 0px rgba(0,0,0,0.2)' }}>
+        <Box onClick={handleClick} sx={{ display: 'flex', background: 'white', alignItems: 'center', justifyContent: 'center', width: {xs: '300px', sm: '450px'}, aspectRatio: '7/11', cursor: 'pointer', boxShadow: '5px 0px 5px 0px rgba(0,0,0,0.2)' }}>
           <TypeAnimation className={'type'} style={{whiteSpace: 'pre-line'}} speed={40} sequence={[`Your smile, a radiant sun that lights my day\nOur hearts entwined, a love that will never sway\nUnderneath the stars, our dreams begin to play\nReveling in the magic, in your arms, I'll stay\n\nMoments with you, a treasure beyond compare\nOverflowing joy, a bond that's truly rare\nMoments of laughter, moments we both share\n\n\nFrom Pookie <3`]} omitDeletionAnimation={true} wrapper="span"></TypeAnimation>
         </Box>
       </ReactCardFlip>
