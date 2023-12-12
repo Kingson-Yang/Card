@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.0f23e0c7.css","mappings":"iFAEA,EACI,QAAS,CACT,SACJ","sources":["App.css"],"sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');\n\n* {\n    margin: 0;\n    padding: 0;\n}\n"],"names":[],"sourceRoot":""}
